@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ActionsContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-image: url(&quot;./bg/bg.jpg&quot;);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QPushButton" name="push1">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>701</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#FFA500	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>==============================================================================================================
+YOUTUBE DWL OS | FACEBOOK VU KIM DONG
+DEV APP BY : PHCLTRZ
+==============================================================================================================
+
+==============================================================================================================TOOL BOX | SOFTWARE DOWNLOAD==============================================================================================================\n\n
+</string>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTipDuration">
+    <number>2</number>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[1].Google Chrome</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[2].Mozilla Firefox</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[3].Brave Browser</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[4].VLC Media Player</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[5].Zoom</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>350</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[6].Microsoft Edge</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>390</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[7].Opera Browser</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[8].Winrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[9].Visual Studio Code</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_10">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>230</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[10].Adobe Reader</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>270</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[11].Teamviewer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_12">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[12].OBS Studio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_13">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>350</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[13]. Skype</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_14">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>390</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[14].Zalo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>150</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[15].PotPlayer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_16">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>230</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[17].Telegram Desktop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_17">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>270</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[18].uTorrent</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_18">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>310</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[19].VMware</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>190</y>
+     <width>138</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[16].K-Lite Codec </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_20">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>460</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white	;
+font-weight:bold;
+
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}</string>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_21">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>350</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[20].League Of Legend</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_22">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>390</y>
+     <width>141</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[21].Python</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_23">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>150</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:#00CCFF	;
+font-weight:bold;
+QPushButton {
+    border: 2px solid black;   /* Viền đen */
+    border-radius: 8px;       /* Bo góc (tùy chọn) */
+    background-color: white;  /* Màu nền */
+    color: black;             /* Màu chữ */
+    padding: 5px;             /* Khoảng cách nội dung */
+}
+
+QPushButton:hover {
+    background-color: #f0f0f0; /* Màu nền khi di chuột */
+}
+
+QPushButton:pressed {
+    background-color: #d9d9d9; /* Màu nền khi nhấn nút */
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>[22].Unikey</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_24">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>190</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:RED
+	;
+font-weight:bold;
+
+</string>
+   </property>
+   <property name="text">
+    <string>Setup to download</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>230</y>
+     <width>171</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg/Logo_PTIT_University.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
